@@ -1,0 +1,180 @@
+  * {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+  .bg-nav {
+    background-color: hsla(238, 70%, 53%, 0.918)
+  }
+
+  .bg-main {
+    background-color: #0b0c2c;
+    background-image: url('https://wallpaperaccess.com/full/2217435.jpg');
+  }
+
+  .bg-mains {
+    background-color: #ffffffd5;
+  }
+
+  .container{
+    max-width: 88%;
+  }
+
+  .navbar {
+    position: sticky;
+  }
+
+  .jumbotron {
+    margin-bottom: 4em;
+  }
+
+  .jumbotron > .container > h1{
+    font-weight: 500;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+
+  .navbar>.navbar-brand {
+    flex-grow: 0;
+    margin-left: 25px;
+    font-weight: 1000;
+    font-size: 30px;
+  }
+
+  .navbar>.btn-group {
+    flex-grow: 0;
+    margin-right: 25px;
+  }
+
+  .card {
+    display: block;
+    background-color: #2a2b38c9;
+    padding: 15px 5px 10px 5px;
+    margin: 0px 0px 20px 0px;
+    max-height: 360px;
+    min-height: 300px;
+    max-width: 300px;
+    min-width: 160px;
+  }
+
+  .img-thumbnail {
+    background-color: #e0e0e0;
+  }
+
+  .card>img {
+    max-width: 140px;
+    min-width: 140px;
+    max-height: 190px;
+    min-height: 190px;
+  }
+
+  .card>p {
+    margin-bottom: 1px;
+    font-size: 13px;
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .card>h2 {
+    font-size: 18px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    max-height: 70px;
+    margin-right: auto;
+    margin-left: auto;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+
+  @media (min-width: 350px) {
+
+    .form-control {
+      width: 100%;
+      margin-right: auto;
+      margin-bottom: 10px;
+      margin-left: auto;
+    }
+
+    .container-fluid {
+      text-align: center;
+      justify-content: center;
+    }
+
+    .navbar-brand {
+      flex-grow: 1;
+    }
+
+    .navbar {
+      margin-bottom: 20px;
+      border-radius: 15px;
+      padding: 10px;
+    }
+
+    .d-flex>.form-control {
+      margin-right: 10px;
+    }
+  }
+
+  @media (max-width: 1200px) {
+    .form-control {
+      width: 50%;
+      margin-bottom: 0px;
+      margin-right: 10px;
+    }
+
+    .col-lg-2 {
+      width: 25%;
+    }
+  }
+
+  @media (min-width: 1200px) {
+    .form-control {
+      width: 32%;
+      margin-bottom: 0px;
+      margin-right: 10px;
+    }
+  }
+
+  @media (max-width: 770px) {
+    .col-lg-2 {
+      width: 50%;
+    }
+
+    .form-control {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+
+    .navbar>.navbar-brand {
+      flex-grow: 1;
+      margin-left: 20px
+    }
+
+    .navbar>.btn-group {
+      flex-grow: 1;
+      margin-right: auto;
+      margin-left: auto;
+    }
+  }
+
+  @media (max-width: 520px) {
+    .navbar>.navbar-brand {
+      font-size: 20px;
+    }
+    .navbar>.btn-group>button {
+      font-size: 12px;
+    }
+   
+  }
+
+  @media (max-width: 370px) {
+    nav-category {
+      display: none;
+    }
+    .col-lg-2{
+      width: 100%;
+    }
+  }
